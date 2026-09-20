@@ -4,7 +4,7 @@ class Solution {
         for(int i=0;i<s.length();i++){
             int reverseindex=26-(s.charAt(i)-'a');
             int stringindex=i+1;
-            total += reverseindex * stringindex;
+            total =total+ reverseindex * stringindex;
         }
       return total;
         
